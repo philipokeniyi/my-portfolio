@@ -1,0 +1,115 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 30px var(--transparent-purple-color);
+}
+.nav {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white-color);
+  text-decoration: none;
+}
+.logo p:last-child {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--purple-color);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  /* background-color: #fff;  */
+}
+
+.nav-link {
+  display: block;
+  color: var(--purple-color);
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: var(--purple-dark-color);
+  border-bottom: 2px solid var(--purple-dark-color);
+}
+
+.nav-link.active {
+  color: var(--white-color);
+}
+
+.menu-button-hide {
+  display: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  border: 1px solid rgba(151, 145, 145, 0.733);
+  background-color: rgb(71, 66, 66);
+  color: #e6dada;
+  font-size: 20px;
+  padding: 1px;
+}
+
+.nav-sidebar {
+  width: 100%;
+  margin-top: 1rem;
+  /* background-color: rgb(40, 71, 71); */
+  
+}
+
+.nav-list-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  width: 100%;
+  list-style-type: none;
+}
+.nav-list-mobile li {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 650px) {
+  .header {
+    padding: 0rem;
+    box-shadow: 0 2px 30px var(--transparent-purple-color);
+  }
+  .nav {
+    width: 95%;
+    padding: 0.6rem;
+  }
+.nav-mobile {
+    width: 100%;
+    box-shadow: 0 4px 10px var(--transparent-purple-color); /* Adjust values as needed */
+}
+
+  .nav-mobile-hide {
+    display: none;
+  }
+  .menu-button-hide {
+    display: block;
+  }
+}
