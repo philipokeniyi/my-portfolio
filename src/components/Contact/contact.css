@@ -93,12 +93,12 @@
   }
 
   .contact-title {
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
   }
 
   .contact__container {
     gap: 0.6rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
  .contact__form {
@@ -107,7 +107,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
   letter-spacing: 1px;
   margin-top: 2rem;
 }
@@ -119,7 +119,7 @@
 
   .contact__form__container {
     gap: 0.4rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .contact__form__container input,
   .contact__form__container textarea {

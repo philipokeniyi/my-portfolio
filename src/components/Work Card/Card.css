@@ -84,7 +84,7 @@
 @media screen and (max-width: 400px) {
    .card-image {
     
-    height: 200px;
+    height: auto;
   }
   .info {
     padding: 5px;
@@ -93,11 +93,11 @@
     font-size: 1.2rem;
   }
   .info p {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
   .info a {
     width: 100px;
     height: 30px;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }

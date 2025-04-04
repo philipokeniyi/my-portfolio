@@ -355,18 +355,18 @@ code {
   }
 
   .blog-text-contents-date {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .blog-text-container-title {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
   .blog-contents-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: left;
   }
   .blog-contents-list {
     gap: 5px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
   }
 
@@ -375,27 +375,27 @@ code {
     margin: 1rem auto;
   }
   .blog-contents-date {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .blog-contents-sub-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .blog-contents-introduction {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .blog-contents-section p:nth-child(1),
   .blog-contents-section-p-sub {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .blog-contents-section p:nth-child(2),
   .conclusion {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   pre {
     background-color: #e09999;
     padding: 2px;
     border-radius: 2px;
     line-height: 1;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
