@@ -30,12 +30,13 @@ import python from "../../assets/icons/python.png";
 import docker from "../../assets/icons/docker.png";
 
 import PhilipImage from "../../assets/philip1.jpg";
+import { NavLink } from "react-router";
 
 function Home() {
   return (
     <div className="home-container">
       <section className="home">
-               <section className="home-left">
+        <section className="home-left">
           <h1 className="my-name">
             <span>Hi,</span> <span>I'm Philip Okeniyi,</span>{" "}
             <span>Web developer.</span>
@@ -47,7 +48,11 @@ function Home() {
             web development, I have completed various projects ranging from
             small business websites to large-scale applications.
           </p>
-          <button>Contact Me</button>
+          <button>
+            <NavLink to="/contact" className="">
+              Contact Me
+            </NavLink>
+          </button>
         </section>
 
         <section className="home-right">
