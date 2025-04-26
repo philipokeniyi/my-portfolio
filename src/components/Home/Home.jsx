@@ -48,6 +48,7 @@ function Home() {
           content="Explore the latest projects and skills of Philip Okeniyi."
         />
         <meta property="og:type" content="website" />
+        
       </Helmet>
       <section className="home">
         <section className="home-left">
