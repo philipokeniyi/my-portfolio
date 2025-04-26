@@ -31,14 +31,28 @@ import docker from "../../assets/icons/docker.png";
 
 import PhilipImage from "../../assets/philip1.jpg";
 import { NavLink } from "react-router";
+import { Helmet } from "react-helmet";
 
 function Home() {
   return (
     <div className="home-container">
+      <Helmet>
+        <title>Home | Philip Okeniyi</title>
+        <meta
+          name="description"
+          content="Welcome to the portfolio of Philip Okeniyi, a full-stack developer specializing in modern web development."
+        />
+        <meta property="og:title" content="Home | Philip Okeniyi" />
+        <meta
+          property="og:description"
+          content="Explore the latest projects and skills of Philip Okeniyi."
+        />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <section className="home">
         <section className="home-left">
           <h1 className="my-name">
-            <span>Hi,</span> <span>I'm Philip Okeniyi,</span>{" "}
+            <span>Hi,</span> <span>I'm Philip Okeniyi </span>{" "}
             <span>Web developer.</span>
           </h1>
           <p>Freelancer / Full-Stack Developer / JavaScript Expert</p>

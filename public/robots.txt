@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://philip-okeniyi.vercel.app/sitemap.xml

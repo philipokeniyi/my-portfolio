@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import { Helmet } from "react-helmet";
 
 function Contact() {
   const form = useRef();
@@ -26,6 +27,20 @@ function Contact() {
 
   return (
     <section className="contact" id="contact">
+      <Helmet>
+        <title>Contact | Philip Okeniyi</title>
+        <meta
+          name="description"
+          content="Get in touch with Philip Okeniyi for collaborations, freelance opportunities, or tech discussions."
+        />
+        <meta property="og:title" content="Contact | Philip Okeniyi" />
+        <meta
+          property="og:description"
+          content="Reach out via the contact form or connect through social media."
+        />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
       <h2 className="contact-title">Contact Me</h2>
       <section className="contact__container">
         <p>
@@ -60,7 +75,7 @@ function Contact() {
 
           <div className="contact__form__container">
             <label htmlFor="message">Message</label>
-            <textarea name="message" rows={5}/>
+            <textarea name="message" rows={5} />
           </div>
 
           <input type="submit" value="Send" className="contact_submit" />

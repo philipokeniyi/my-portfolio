@@ -5,10 +5,27 @@ import simpleWebApp from "../Blog-contents/simplewebapp.png";
 import JavaScriptFrameworkspx from "../Blog-contents/JavaScriptFrameworks.png";
 import AsyncVsSyncpx from "../Blog-contents/asyncVsSyncpx.png";
 import FetchAsyncAPIpx from "../Blog-contents/FetchAsyncAPIpx.png";
+import { Helmet } from "react-helmet";
 
 function Blog() {
   return (
     <div className="blog-container">
+    
+
+      <Helmet>
+        <title>Blog | Philip Okeniyi</title>
+        <meta
+          name="description"
+          content="Read articles and insights from Philip Okeniyi about web development, JavaScript, and technology trends."
+        />
+        <meta property="og:title" content="Blog | Philip Okeniyi" />
+        <meta
+          property="og:description"
+          content="Stay updated with thoughts and tutorials by Philip Okeniyi."
+        />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
       <h1 className="blog">Blog</h1>
 
       <div className="blog-content">

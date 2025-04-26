@@ -7,10 +7,24 @@ import fashionWebsite from "./fashion-website.png";
 import realEstate from "./real-estate.png";
 import electronicWebsite from "./electronic-website.png";
 import softTech from "./soft-tech.png";
+import { Helmet } from "react-helmet";
 
 function Work() {
   return (
     <div>
+      <Helmet>
+        <title>Work | Philip Okeniyi</title>
+        <meta
+          name="description"
+          content="View the professional work and projects completed by Philip Okeniyi."
+        />
+        <meta property="og:title" content="Work | Philip Okeniyi" />
+        <meta
+          property="og:description"
+          content="Browse a portfolio of impactful projects delivered with passion and precision."
+        />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <div className="work-container">
         <div className="all-work">
           <h1>Work</h1>
