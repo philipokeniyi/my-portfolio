@@ -47,8 +47,28 @@ function Home() {
           property="og:description"
           content="Explore the latest projects and skills of Philip Okeniyi."
         />
+        <meta
+          property="og:image"
+          content="https://raw.githubusercontent.com/philipokeniyi/my-picture/refs/heads/main/philip%20okeniyi1.png"
+        />
+        <meta property="og:image:alt" content="Philip Okeniyi's portfolio" />
+        <meta
+          property="og:image:secure_url"
+          content="https://raw.githubusercontent.com/philipokeniyi/my-picture/refs/heads/main/philip%20okeniyi1.png"
+        />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:url" content="https://philip-okeniyi.vercel.app" />
         <meta property="og:type" content="website" />
-        
+        <meta property="og:site_name" content="Philip Okeniyi" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:title" content="Philip Okeniyi" />
+        <meta name="twitter:description" content="Philip Okeniyi's portfolio" />
+        <meta
+          name="twitter:image"
+          content="https://raw.githubusercontent.com/philipokeniyi/my-picture/refs/heads/main/philip%20okeniyi1.png"
+        />
       </Helmet>
       <section className="home">
         <section className="home-left">
