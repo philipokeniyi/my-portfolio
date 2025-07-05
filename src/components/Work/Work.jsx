@@ -2,10 +2,9 @@
 
 import "./work.css";
 import Card from "../Work Card/Card";
-
 import fashionWebsite from "./fashion-website.png";
 import realEstate from "./estate-agency.png";
-import loginAuth from "./login-auth.png";
+import loginAuth from "./login-Auth.png";
 import { Helmet } from "react-helmet";
 
 function Work() {
