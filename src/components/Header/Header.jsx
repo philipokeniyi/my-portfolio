@@ -32,7 +32,7 @@ function Header() {
 
         {/* Desktop Navigation */}
         <div className="nav-links nav-topbar">
-          <ul className="nav-list">
+          <ul className="nav-list nav-list-desk">
             <li>
               <NavLink to="/" className="nav-link nav-mobile-hide">
                 Home
@@ -40,7 +40,7 @@ function Header() {
             </li>
             <li>
               <NavLink to="/work" className="nav-link nav-mobile-hide">
-                Work
+                Projects
               </NavLink>
             </li>
             <li>
@@ -48,8 +48,13 @@ function Header() {
                 Blog
               </NavLink>
             </li>
+          </ul>
+        </div>
+
+        <div className="nav-links nav-topbar">
+          <ul className="nav-list">
             <li>
-              <NavLink to="/contact" className="nav-link nav-mobile-hide">
+              <NavLink to="/contact" className="nav-link-contact nav-mobile-hide">
                 Contact Me
               </NavLink>
             </li>
@@ -86,7 +91,7 @@ function Header() {
                   className="nav-link"
                   onClick={toggleSidebar}
                 >
-                  Work
+                  Projects
                 </NavLink>
               </li>
               <li>

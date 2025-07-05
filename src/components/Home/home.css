@@ -4,7 +4,7 @@
 }
 
 .home {
-  width: 80%;
+  width: 90%;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -213,7 +213,7 @@
 }
 @media (max-width: 450px) {
   .home {
-    width: 95%;
+    width: 90%;
   }
   .stage-cube-cont {
     height: 250px;
@@ -272,7 +272,7 @@
 }
 
 .about-container {
-  width: 80%;
+  width: 90%;
   margin: 8rem auto;
   text-align: center;
 }
@@ -302,7 +302,7 @@
 
 @media (max-width: 480px) {
   .about-container {
-    width: 95%;
+    width: 90%;
     margin: 3rem auto 3rem;
   }
   .about-container h2 {

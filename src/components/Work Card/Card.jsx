@@ -1,3 +1,6 @@
+// 3
+
+
 import PropTypes from "prop-types";
 import "./Card.css";
 
@@ -10,22 +13,24 @@ function Card({
   alt = "Card Image",
 }) {
   return (
-    <section className="card">
-      <div className="image">
-        <img src={image} alt={alt} className="card-image" />
-      </div>
+    <div className="card-container">
+      <section className="card">
+        <div className="image">
+          <img src={image} alt={alt} className="card-image" />
+        </div>
 
-      <div className="info">
-        <h2>{title}</h2>
-        <p>{description}</p>
-        <p>Tech Stack: {stack}</p>
-        <p>
-          <a href={link} target="_blank" rel="noopener noreferrer">
-            Live Demo
-          </a>
-        </p>
-      </div>
-    </section>
+        <div className="info">
+          <h2>{title}</h2>
+          <p>{description}</p>
+          <p>Tech Stack: {stack}</p>
+          <p>
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
   );
 }
 
