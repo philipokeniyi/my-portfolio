@@ -28,8 +28,8 @@ function Work() {
           <h1>PROJECTS</h1>
           <section className="work">
             <Card
-              title="Real Estate Agency"
-              description="A real estate agency website. "
+              title="Login Authentication"
+              description="A login authentication app, email verification and password reset functionality implemented. "
               stack="React, Tailwind CSS, Node.js, MongoDB, Express.js "
               link="https://login-authentication-1yfb.vercel.app"
               image={loginAuth}
