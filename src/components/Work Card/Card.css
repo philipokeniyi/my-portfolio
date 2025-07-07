@@ -1,5 +1,6 @@
 .card-container{
   width: 400px;
+ 
 }
 
 .card {
@@ -9,7 +10,7 @@
   border-radius: 10px;
   margin: 10px;
   /* width: 350px; */
-  height: auto;
+  height:auto ;
   box-shadow: 0 4px 8px 0 var(--button-active-color);
   transition: 0.3s;
 }
@@ -39,10 +40,13 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .info p {
-  height: 50px;
+  /* height: 50px; */
   color: var(--white-color);
   font-size: 1rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.stack-info{
+  height: 50px;
 }
 
 .info a {
@@ -85,6 +89,13 @@
   transition: 0.4s;
 }
 
+.stack{
+  color: var(--purple-color);
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
 @media screen and (max-width: 400px) {
    .card-image {
     
@@ -98,6 +109,9 @@
   }
   .info p {
     font-size: 1.2rem;
+  }
+  .stack-info{
+    height: auto;
   }
   .info a {
     width: 100px;

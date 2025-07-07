@@ -54,7 +54,10 @@ function Header() {
         <div className="nav-links nav-topbar">
           <ul className="nav-list">
             <li>
-              <NavLink to="/contact" className="nav-link-contact nav-mobile-hide">
+              <NavLink
+                to="/contact"
+                className="nav-link-contact nav-mobile-hide"
+              >
                 Contact Me
               </NavLink>
             </li>
@@ -66,8 +69,13 @@ function Header() {
                   className="menu-button menu-button-hide"
                   onClick={toggleSidebar}
                 >
-                  {isSidebarOpen ? "✖" : "☰"}{" "}
-                  {/* Changes icon based on state */}
+                  <span
+                    className={
+                      isSidebarOpen ? "icon-animate open" : "icon-animate"
+                    }
+                  >
+                    {isSidebarOpen ? "✖" : "☰"}
+                  </span>
                 </button>
               </div>
             </li>
@@ -77,44 +85,34 @@ function Header() {
 
       {/* Sidebar Navigation (for mobile) */}
       <nav className="nav-mobile">
-        {isSidebarOpen && (
-          <div className="nav-sidebar">
-            <ul className="nav-list-mobile">
-              <li>
-                <NavLink to="/" className="nav-link" onClick={toggleSidebar}>
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/work"
-                  className="nav-link"
-                  onClick={toggleSidebar}
-                >
-                  Projects
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/blog"
-                  className="nav-link"
-                  onClick={toggleSidebar}
-                >
-                  Blog
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/contact"
-                  className="nav-link"
-                  onClick={toggleSidebar}
-                >
-                  Contact Me
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-        )}
+        <div className={`nav-sidebar${isSidebarOpen ? " open" : ""}`}>
+          <ul className="nav-list-mobile">
+            <li>
+              <NavLink to="/" className="nav-link" onClick={toggleSidebar}>
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/work" className="nav-link" onClick={toggleSidebar}>
+                Projects
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/blog" className="nav-link" onClick={toggleSidebar}>
+                Blog
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/contact"
+                className="nav-link"
+                onClick={toggleSidebar}
+              >
+                Contact Me
+              </NavLink>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
   );

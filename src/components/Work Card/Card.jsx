@@ -13,6 +13,7 @@ function Card({
   alt = "Card Image",
 }) {
   return (
+    
     <div className="card-container">
       <section className="card">
         <div className="image">
@@ -22,7 +23,9 @@ function Card({
         <div className="info">
           <h2>{title}</h2>
           <p>{description}</p>
-          <p>Tech Stack: {stack}</p>
+          <p className="stack-info"> 
+            <span className="stack">Tech Stack:</span> {stack}
+          </p>
           <p>
             <a href={link} target="_blank" rel="noopener noreferrer">
               Live Demo

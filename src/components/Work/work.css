@@ -1,6 +1,7 @@
 .work-container {
   width: 100%;
   display: flex;
+  margin-bottom: 3rem;
 }
 
 .all-work {

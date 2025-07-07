@@ -29,7 +29,7 @@ function Work() {
           <section className="work">
             <Card
               title="Login Authentication"
-              description="A login authentication app, email verification and password reset functionality implemented. "
+              description="App with login, email verification, and password reset features."
               stack="React, Tailwind CSS, Node.js, MongoDB, Express.js "
               link="https://login-authentication-1yfb.vercel.app"
               image={loginAuth}
@@ -38,7 +38,7 @@ function Work() {
 
             <Card
               title="Fashion website"
-              description="A fashion website."
+              description="Modern fashion site with stylish design and user interface."
               stack="HTML, Bootstrap, JavaScript"
               link="https://philipokeniyi.github.io/Bootstrap-PFashion/"
               image={fashionWebsite}
@@ -47,7 +47,7 @@ function Work() {
 
             <Card
               title="Real Estate Agency"
-              description="A real estate agency website. "
+              description="Real estate platform for property listings and client contact."
               stack="HTML, CSS, JavaScript"
               link="https://real-estate-agency-mocha.vercel.app"
               image={realEstate}
