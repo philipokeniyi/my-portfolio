@@ -94,7 +94,7 @@
 .nav-sidebar {
   width: 100%;
   margin-top: 1rem;
-  /* background-color: rgb(40, 71, 71); */
+  display: none;  /* background-color: rgb(40, 71, 71); */
 }
 
 .nav-list-mobile {
@@ -135,6 +135,7 @@
  
 
   .nav-sidebar {
+    display: block;
     margin-top: 0rem;
     width: 100%;
     margin-top: 0rem;
