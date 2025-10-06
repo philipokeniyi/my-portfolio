@@ -4,6 +4,7 @@ import "./work.css";
 import Card from "../Work Card/Card";
 import fashionWebsite from "./fashion-website.png";
 import realEstate from "./estate-agency.png";
+import foodDelivery from "./food-delivery.png";
 import loginAuth from "./Login-Auth.png";
 import { Helmet } from "react-helmet";
 
@@ -27,6 +28,14 @@ function Work() {
         <div className="all-work">
           <h1>PROJECTS</h1>
           <section className="work">
+            <Card
+              title="Food Delivery and Order"
+              description="A food delivery app with real-time tracking and secure payments."
+              stack="React, Tailwind CSS, Node.js, MongoDB, Express.js, Stripe"
+              link="https://98-food.vercel.app"
+              image={foodDelivery}
+              alt="Food Delivery and Order"
+            />
             <Card
               title="Login Authentication"
               description="App with login, email verification, and password reset features."
