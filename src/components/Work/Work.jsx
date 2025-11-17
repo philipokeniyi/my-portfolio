@@ -6,6 +6,7 @@ import fashionWebsite from "./fashion-website.png";
 import realEstate from "./estate-agency.png";
 import foodDelivery from "./food-delivery.png";
 import loginAuth from "./Login-Auth.png";
+import easyReply from "./easy-reply.png";
 import { Helmet } from "react-helmet";
 
 function Work() {
@@ -28,6 +29,14 @@ function Work() {
         <div className="all-work">
           <h1>PROJECTS</h1>
           <section className="work">
+            <Card
+              title="Easy Reply"
+              description="AI-powered Twitter reply generation app."
+              stack="React, Tailwind CSS, Node.js, Express.js, Gemini API"
+              link="https://easy-reply-mu.vercel.app"
+              image={easyReply}
+              alt="Easy Reply"
+            />
             <Card
               title="Food Delivery and Order"
               description="A food delivery app with real-time tracking and secure payments."
