@@ -31,7 +31,7 @@ function Work() {
           <section className="work">
             <Card
               title="Easy Reply"
-              description="AI-powered Twitter reply generation app."
+              description="AI-powered Twitter reply generation app with Gemini API."
               stack="React, Tailwind CSS, Node.js, Express.js, Gemini API"
               link="https://easy-reply-mu.vercel.app"
               image={easyReply}
