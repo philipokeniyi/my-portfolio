@@ -7,6 +7,7 @@ import realEstate from "./estate-agency.png";
 import foodDelivery from "./food-delivery.png";
 import loginAuth from "./Login-Auth.png";
 import easyReply from "./easy-reply.png";
+import autoRentals from "./auto-rental.png";
 import { Helmet } from "react-helmet";
 
 function Work() {
@@ -29,6 +30,14 @@ function Work() {
         <div className="all-work">
           <h1>PROJECTS</h1>
           <section className="work">
+            <Card
+              title="Auto Rentals"
+              description="A full-stack car rental platform that enables users to browse, book and manage car rentals while providing owners with tools to list and manage their vehicles."
+              stack="React, Tailwind CSS, Node.js, Express.js, MongoDB, Motion, ImageKit"
+              link="https://auto-rental-seven.vercel.app"
+              image={autoRentals}
+              alt="Auto Rentals"
+            />
             <Card
               title="Easy Reply"
               description="AI-powered Twitter reply generation app with Gemini API."
