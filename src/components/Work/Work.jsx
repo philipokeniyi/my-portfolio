@@ -32,12 +32,13 @@ function Work() {
           <section className="work">
             <Card
               title="Auto Rentals"
-              description="A full-stack car rental platform that enables users to browse, book and manage car rentals while providing owners with tools to list and manage their vehicles."
+              description="A full-stack car rental platform with booking and vehicle management features.   "
               stack="React, Tailwind CSS, Node.js, Express.js, MongoDB, Motion, ImageKit"
               link="https://auto-rental-seven.vercel.app"
               image={autoRentals}
               alt="Auto Rentals"
             />
+           
             <Card
               title="Easy Reply"
               description="AI-powered Twitter reply generation app with Gemini API."
@@ -62,7 +63,6 @@ function Work() {
               image={loginAuth}
               alt="Loagin Authentication"
             />
-
             <Card
               title="Fashion website"
               description="Modern fashion site with stylish design and user interface."
@@ -71,7 +71,6 @@ function Work() {
               image={fashionWebsite}
               alt="Fashion website"
             />
-
             <Card
               title="Real Estate Agency"
               description="Real estate platform for property listings and client contact."
