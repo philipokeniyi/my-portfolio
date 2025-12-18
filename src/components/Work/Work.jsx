@@ -8,6 +8,7 @@ import foodDelivery from "./food-delivery.png";
 import loginAuth from "./Login-Auth.png";
 import easyReply from "./easy-reply.png";
 import autoRentals from "./auto-rental.png";
+import coChat from "./co-chat.png";
 import { Helmet } from "react-helmet";
 
 function Work() {
@@ -31,6 +32,14 @@ function Work() {
           <h1>PROJECTS</h1>
           <section className="work">
             <Card
+              title="Co-Chat"
+              description="A real-time chat application with user authentication and message encryption."
+              stack="React, Node.js, Express.js, Socket.io, MongoDB"
+              link="https://co-chat-50p9.onrender.com"
+              image={coChat}
+              alt="Co-Chat"
+            />
+            <Card
               title="Auto Rentals"
               description="A full-stack car rental platform with booking and vehicle management features.   "
               stack="React, Tailwind CSS, Node.js, Express.js, MongoDB, Motion, ImageKit"
@@ -38,7 +47,7 @@ function Work() {
               image={autoRentals}
               alt="Auto Rentals"
             />
-           
+
             <Card
               title="Easy Reply"
               description="AI-powered Twitter reply generation app with Gemini API."
