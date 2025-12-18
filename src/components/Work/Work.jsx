@@ -33,7 +33,7 @@ function Work() {
           <section className="work">
             <Card
               title="Co-Chat"
-              description="A real-time chat application with user authentication and message encryption."
+              description="A modern, real-time chat application built with the MERN stack and Socket.io."
               stack="React, Node.js, Express.js, Socket.io, MongoDB"
               link="https://co-chat-50p9.onrender.com"
               image={coChat}
