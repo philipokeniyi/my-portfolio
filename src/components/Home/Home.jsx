@@ -107,7 +107,7 @@ function Home() {
               Express, or optimizing database interactions with MongoDB and
               PostgreSQL, I thrive on solving complex problems through code.
             </p>
-            <p>
+            {/* <p>
               My journey in web development has been fueled by curiosity and a
               desire to create seamless, user-friendly applications. I have
               built everything from small business websites to full-fledged web
@@ -115,7 +115,7 @@ function Home() {
               scalability. I enjoy exploring the latest JavaScript frameworks
               and tools, continuously improving my skills to stay ahead in this
               fast-evolving industry.
-            </p>
+            </p> */}
             <p>
               Beyond coding, I love collaborating with teams, brainstorming
               innovative solutions, and turning ideas into reality. Whether
@@ -196,7 +196,7 @@ function Home() {
       <section className="experience">
         <h2>Experience</h2>
         <section className="exp-cert">
-          <p>Software Developer at coming soon (2025-Present)</p>
+          <p>Software Developer (Open to work)</p>
           <p>Freelance Web Developer (2023-Present)</p>
         </section>
 
