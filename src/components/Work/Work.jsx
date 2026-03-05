@@ -9,6 +9,7 @@ import loginAuth from "./Login-Auth.png";
 import easyReply from "./easy-reply.png";
 import autoRentals from "./auto-rental.png";
 import coChat from "./co-chat.png";
+import BrightWaveBMS from "./BrightWaveBMS.png";
 import { Helmet } from "react-helmet";
 
 function Work() {
@@ -32,6 +33,15 @@ function Work() {
           <h1>PROJECTS</h1>
           <section className="work">
             <Card
+              title="BrightWave BMS"
+              description="A full-stack wholesale distribution management system."
+              stack="React, Tailwind CSS, Node.js, Express.js, MongoDB, Socket.io"
+              link="https://bright-wave-bms.vercel.app"
+              image={BrightWaveBMS}
+              alt="BrightWave BMS"
+            />
+
+            <Card
               title="Co-Chat"
               description="A modern, real-time chat application built with the MERN stack and Socket.io."
               stack="React, Node.js, Express.js, Socket.io, MongoDB"
@@ -41,7 +51,7 @@ function Work() {
             />
             <Card
               title="Auto Rentals"
-              description="A full-stack car rental platform with booking and vehicle management features.   "
+              description="A full-stack car rental platform with booking and vehicle management features."
               stack="React, Tailwind CSS, Node.js, Express.js, MongoDB, Motion, ImageKit"
               link="https://auto-rental-seven.vercel.app"
               image={autoRentals}
