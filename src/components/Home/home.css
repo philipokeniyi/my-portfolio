@@ -55,7 +55,7 @@
   border-radius: 5px;
   border: none;
 
-  background-color: var(--button-color)
+  background-color: var(--button-color);
 }
 
 .home-left button:hover {
@@ -177,7 +177,6 @@
 @media (max-width: 1000px) {
   .home {
     width: 90%;
-   
   }
 }
 @media (max-width: 900px) {
@@ -272,7 +271,7 @@
 }
 
 .about-container {
-  width: 90%;
+  width: 80%;
   margin: 8rem auto;
   text-align: center;
 }
@@ -293,9 +292,7 @@
 .about-image img {
   width: 200px;
   height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  object-position: center bottom;
+  border-radius: 100px;
   float: left;
   margin-right: 20px;
 }
@@ -304,21 +301,85 @@
   .about-container {
     width: 90%;
     margin: 3rem auto 3rem;
+    display:flex;
+    flex-direction: column;
+      gap: 1rem;
+      text-align: center;
+      justify-content: center;
   }
   .about-container h2 {
     font-size: 1.2rem;
   }
+
+  .about-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
   .about-image p {
     margin-top: 1.4rem;
-    
     font-size: 1.2rem;
     text-align: left;
   }
   .about-image img {
-    width: 100%;
     float: none;
     margin-right: 0px;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
     object-position: center;
+    
+  }
+}
+
+/* ************************************ */
+.latest-projects {
+  width: 80%;
+  margin: 8rem auto;
+  text-align: center;
+}
+
+.latest-projects h2 {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--purple-color);
+  margin-bottom: 3rem;
+}
+
+.latest-projects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.view-all-btn {
+  display: inline-block;
+  margin-top: 2.5rem;
+  padding: 10px 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: var(--button-color);
+  color: var(--button-text-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.view-all-btn:hover {
+  background-color: var(--button-hover-color);
+  color: var(--button-text-hover-color);
+}
+
+@media (max-width: 480px) {
+  .latest-projects {
+    width: 95%;
+    margin: 3rem auto;
+  }
+  .latest-projects h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -330,7 +391,7 @@
 .skills-container h2 {
   font-size: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   color: var(--purple-color);
+  color: var(--purple-color);
 }
 
 .skills {
@@ -408,16 +469,16 @@
 .experience h2 {
   font-size: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   color: var(--purple-color);
+  color: var(--purple-color);
 }
 
-.exp-cert{
+.exp-cert {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   font-size: 1.5rem;
 }
-@media (max-width: 480px)  {
+@media (max-width: 480px) {
   .experience {
     width: 95%;
     margin: 3rem auto;
@@ -426,8 +487,13 @@
   .experience h2 {
     font-size: 1.2rem;
   }
-  .exp-cert{
+  .exp-cert {
     font-size: 1.2rem;
   }
+}
 
+.icon-container img {
+  padding: 0.1rem;
+  border-radius: 50%;
+  background-color: #ffffff;
 }

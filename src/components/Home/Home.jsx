@@ -28,10 +28,16 @@ import sass from "../../assets/icons/sass.png";
 import django from "../../assets/icons/django.png";
 import python from "../../assets/icons/python.png";
 import docker from "../../assets/icons/docker.png";
+import nextjs from "../../assets/icons/nextjs.png";
 
-import PhilipImage from "../../assets/philip1.jpg";
+import philip from "../../assets/philip.png";
 import { NavLink } from "react-router";
 import { Helmet } from "react-helmet";
+
+import Card from "../Work Card/Card";
+import riseDaily from "../Work/risedaily-blog.png";
+import BrightWaveBMS from "../Work/BrightWaveBMS.png";
+import coChat from "../Work/co-chat.png";
 
 function Home() {
   return (
@@ -43,14 +49,15 @@ function Home() {
         <section className="home-left">
           <h1 className="my-name">
             <span>Hi,</span> <span>I'm Philip Okeniyi </span>{" "}
-            <span>Web developer.</span>
+            <span>Software developer.</span>
           </h1>
           <p>Freelancer / Full-Stack Developer / JavaScript Expert</p>
           <p>
-            I’m a full-stack web developer with a passion for creating seamless
-            user experiences and solving complex problem. With my experience in
-            web development, I have completed various projects ranging from
-            small business websites to large-scale applications.
+            I’m a full-stack software developer with a passion for creating
+            seamless user experiences and solving complex problem. With my
+            experience in software development, I have completed various
+            projects ranging from small business websites to large-scale
+            applications.
           </p>
           <button>
             <NavLink to="/contact" className="">
@@ -94,28 +101,20 @@ function Home() {
         <div className="about">
           <section className="about-image">
             <p>
-              <img src={PhilipImage} alt="" />
+              <img src={philip} alt="Philip Okeniyi" />
             </p>
             <p>
-              Hello! I'm Philip, a passionate full-stack web developer with a
-              strong focus on JavaScript. From the moment I wrote my first line
-              of code, I knew that building web applications was what I wanted
-              to do. Over the years, I have worked on various projects that
-              leverage JavaScript, from dynamic front-end interfaces to scalable
-              back-end solutions. Whether it's crafting interactive UI
+              Hello! I'm Philip, a passionate full-stack software developer with
+              a strong focus on JavaScript. From the moment I wrote my first
+              line of code, I knew that building software applications was what
+              I wanted to do. Over the years, I have worked on various projects
+              that leverage JavaScript, from dynamic front-end interfaces to
+              scalable back-end solutions. Whether it's crafting interactive UI
               components with React, developing robust APIs using Node.js and
-              Express, or optimizing database interactions with MongoDB and
-              PostgreSQL, I thrive on solving complex problems through code.
+              Express, Next.js or optimizing database interactions with MongoDB
+              and PostgreSQL, I thrive on solving complex problems through code.
             </p>
-            {/* <p>
-              My journey in web development has been fueled by curiosity and a
-              desire to create seamless, user-friendly applications. I have
-              built everything from small business websites to full-fledged web
-              applications, always ensuring performance, accessibility, and
-              scalability. I enjoy exploring the latest JavaScript frameworks
-              and tools, continuously improving my skills to stay ahead in this
-              fast-evolving industry.
-            </p> */}
+
             <p>
               Beyond coding, I love collaborating with teams, brainstorming
               innovative solutions, and turning ideas into reality. Whether
@@ -128,6 +127,40 @@ function Home() {
             </p>
           </section>
         </div>
+      </section>
+
+      {/* three best projects */}
+      <section className="latest-projects">
+        <h2>LATEST PROJECTS</h2>
+        <div className="latest-projects-grid">
+          <Card
+            title="RiseDaily Blog"
+            description="A modern blog platform for sharing articles on personal growth, tech and lifestyle."
+            stack="React, Next.js, Tailwind CSS, MongoDB"
+            link="https://blog-puce-ten-19.vercel.app"
+            image={riseDaily}
+            alt="RiseDaily Blog"
+          />
+          <Card
+            title="BrightWave BMS"
+            description="A full-stack wholesale distribution management system."
+            stack="React, Tailwind CSS, Node.js, Express.js, MongoDB, Socket.io"
+            link="https://bright-wave-bms.vercel.app"
+            image={BrightWaveBMS}
+            alt="BrightWave BMS"
+          />
+          <Card
+            title="Co-Chat"
+            description="A modern, real-time chat application built with the MERN stack and Socket.io."
+            stack="React, Node.js, Express.js, Socket.io, MongoDB"
+            link="https://co-chat-50p9.onrender.com"
+            image={coChat}
+            alt="Co-Chat"
+          />
+        </div>
+        <NavLink to="/work" className="view-all-btn">
+          View All Projects
+        </NavLink>
       </section>
 
       <section className="skills-container">
@@ -188,6 +221,12 @@ function Home() {
             </span>
             <span>
               <img src={aws} alt="aws" /> AWS
+            </span>
+            <span>
+              <span className="icon-container">
+                <img src={nextjs} alt="nextjs" />{" "}
+              </span>
+              Next.js
             </span>
           </p>
         </div>

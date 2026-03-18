@@ -23,7 +23,7 @@ function Card({
           <p className="stack-info"> 
             <span className="stack">Tech Stack:</span> {stack}
           </p>
-          <p>
+          <p className="card-ink">
             <a href={link} target="_blank" rel="noopener noreferrer">
               Live Demo
             </a>

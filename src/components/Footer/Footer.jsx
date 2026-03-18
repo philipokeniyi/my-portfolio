@@ -56,7 +56,7 @@ function Footer() {
           <h2>Let's Connect!</h2>
           <p>
             <a
-              href="https://x.com/tundeCodes_"
+              href="https://x.com/philip_okeniyi"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -96,7 +96,8 @@ function Footer() {
       </section>
 
       <section className="footer-two">
-        <p>© Philip Okeniyi 2025 . All Rights Reserved.</p>
+      
+        <p> &copy; {new Date().getFullYear()} Philip Okeniyi. All Rights Reserved.</p>
       </section>
     </footer>
   );

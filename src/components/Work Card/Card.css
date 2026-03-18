@@ -95,6 +95,9 @@
   text-transform: uppercase;
   
 }
+.card-ink{
+  margin: 2rem 0;
+}
 
 @media screen and (max-width: 400px) {
    .card-image {

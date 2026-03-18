@@ -6,7 +6,8 @@ footer {
 }
 .footer-one {
   width: 80%;
-  margin: 10px auto;
+  margin: 20px auto;
+  padding:1rem 0;
   display: flex;
   justify-content: space-between;
   gap: 2rem;

@@ -10,6 +10,8 @@ import easyReply from "./easy-reply.png";
 import autoRentals from "./auto-rental.png";
 import coChat from "./co-chat.png";
 import BrightWaveBMS from "./BrightWaveBMS.png";
+import riseDaily from "./risedaily-blog.png";
+
 import { Helmet } from "react-helmet";
 
 function Work() {
@@ -32,6 +34,14 @@ function Work() {
         <div className="all-work">
           <h1>PROJECTS</h1>
           <section className="work">
+            <Card
+              title="RiseDaily Blog"
+              description="A modern blog platform for sharing articles on personal growth, tech and lifestyle."
+              stack="React, Next.js, Tailwind CSS, MongoDB"
+              link="https://blog-puce-ten-19.vercel.app"
+              image={riseDaily}
+              alt="RiseDaily Blog"
+            />
             <Card
               title="BrightWave BMS"
               description="A full-stack wholesale distribution management system."
