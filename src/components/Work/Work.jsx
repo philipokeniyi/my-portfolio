@@ -11,6 +11,7 @@ import autoRentals from "./auto-rental.png";
 import coChat from "./co-chat.png";
 import BrightWaveBMS from "./BrightWaveBMS.png";
 import riseDaily from "./risedaily-blog.png";
+import mastermind from "./mastermind.png";
 
 import { Helmet } from "react-helmet";
 
@@ -34,6 +35,15 @@ function Work() {
         <div className="all-work">
           <h1>PROJECTS</h1>
           <section className="work">
+            <Card
+              title="Mastermind"
+              description="A full-stack booking platform for scheduling appointments and managing services."
+              stack="React, Tailwind CSS, Next.js, supabase, postgreSQL, stripe"
+              link="https://mastermind-booking.vercel.app"
+              image={mastermind}
+              alt="Mastermind"
+            />
+
             <Card
               title="RiseDaily Blog"
               description="A modern blog platform for sharing articles on personal growth, tech and lifestyle."
