@@ -7,6 +7,7 @@
   margin: 3rem auto;
   border-radius: 2rem;
   padding: 1rem 2rem;
+  background-color: var(--card-color);
   box-shadow: 0 2px 30px var(--transparent-purple-color);
 }
 .nav {
